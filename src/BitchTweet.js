@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-function bitchTweet(){
+function bitchTweet(props){
     return(
         <div className= "tweet">
-            <h3>Name</h3>
-            <p>this is a random bitchTweet.</p>
-            <h3>number of likes:</h3>
+            <h3>Name: {props.name}</h3>
+            <p>Bitch Tweet: {props.message}</p>
+            <h3>Number of likes: {props.number}</h3>
         </div>
     )
 }
