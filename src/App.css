@@ -1,11 +1,25 @@
-.tweet{
-  border: 5px solid black;
-};
-
 .app{
   height: 100vh;
   background: lightseagreen;
-};
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.red{
+  color: red;
+}
+.tweet{
+  border: 5px solid black;
+  height: 300px;
+  width: 300px;
+  background: cornsilk;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 
 
